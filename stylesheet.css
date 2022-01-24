@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.left{
+    width: 25%;
+    height: 100vh;
+    background-color: rgb(55, 55, 95);
+    color: white;
+    box-sizing: border-box;
+    padding: 20px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: not-allowed;
+}
+.left img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.name{
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: 'InterUI','-apple-system','BlinkMacSystemFont',"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.bio{
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    text-align: left;
+    padding-left: 30px;
+}
+.btn{
+    margin-top: 25px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer !important;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+}
+.btn a{
+    text-decoration: none;
+    
+}
+.btn:hover{
+    background-color: white;
+}
+.btn a:hover{
+    color: black;
+    
+}
+.nav{
+    background-color: white;
+    box-shadow: 1px 1px 8px 4px gray;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    height: 5vh;
+    width: 70%;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    border: 2px solid black;
+    
+}
+.nav h3{
+    font-weight: 750;
+    margin: 10px;
+    cursor: not-allowed;
+}
+.nav div a{
+    font-weight: 500;
+    text-decoration: none;
+    margin: 10px;
+    color: gray;
+    cursor: pointer;
+}
+.nav div a:hover{
+    color: black;
+    transition: ease-in-out 500ms;
+}
+.right{
+    overflow:auto;
+    width: 75%;
+    height: 100vh;
+    color: black;
+    background-color: rgb(24, 24, 26);
+    /* float: left; */
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+}
+.body{
+    margin-top: 100px;
+}
+#skills{
+    /* border: 2px solid red; */
+    width: 80%;
+    height: 50vh;
+    margin: 10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-left: 50px;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+#skills:hover{
+    box-shadow: 1px 1px 8px 4px gray;
+    border: 2px solid black;
+}
+.a{
+    font-size: 1.4rem;
+    color: blueviolet;
+}
+.b{
+    font-size: 1.4rem;
+    color: blueviolet;
+}
+.c{
+    font-size: 1.2rem;
+    color: darkgoldenrod;
+}
+.d{
+    font-size: 1.2rem;
+    color: blueviolet;
+}
+.e{
+    font-size: 1.2rem;
+    color:coral;
+}
+#education{
+    /* border: 2px solid red; */
+    width: 80%;
+    height: 50vh;
+    margin: 10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 25px;
+    margin-left: 50px;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    line-height: 200%;
+    color: black;
+    
+}
+#education:hover{
+    box-shadow: 1px 1px 8px 4px gray;
+    border: 2px solid black;
+}
+#address{
+    /* border: 2px solid red; */
+    width: 80%;
+    height: 50vh;
+    margin: 10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 25px;
+    margin-left: 50px;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    line-height: 200%;
+}
+#address:hover{
+    box-shadow: 1px 1px 8px 4px gray;
+    border: 2px solid black;
+}
+
+#address p{
+    cursor: pointer;
+    
+}
+#contact{
+    /* border: 2px solid red; */
+    width: 80%;
+    height: 50vh;
+    margin: 10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 25px;
+    margin-left: 50px;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    line-height: 250%;
+}
+#contact p{
+    cursor: pointer;
+}
+#contact a{
+    text-decoration: none;
+    color: black;
+
+}
+#contact p a:hover{
+    color: blueviolet;
+}
+#contact:hover{
+    box-shadow: 1px 1px 8px 4px gray;
+    border: 2px solid black;
+}
+@media only screen and (max-width: 930px)
+{
+    .left{
+        width: 100%;
+        float: none;
+        height: auto;
+
+    }
+    .right{
+        width: 100%;
+        float: none;
+    }
+    .nav{
+        width: 88%;
+        margin-left: 3vw;
+    }
+    .nav h3{
+        font-weight: 750;
+        margin: 3px;
+        cursor: not-allowed;
+    }
+    .nav div a{
+        font-weight: 500;
+        text-decoration: none;
+        margin: 7px;
+        color: gray;
+        cursor: pointer;
+    }
+    #education{
+        margin-left: 35px;
+    }
+    #skills{
+        margin-left: 35px;
+    }
+    #contact{
+        margin-left: 35px;
+    }
+    #address{
+        margin-left: 35px;
+    }
+    #address p{
+        margin-left:50px;
+        line-height: 180%;
+    }
+    #education p{
+        margin-left: 25px;
+
+    }
+    #contact P{
+        margin-left: 25px;
+        line-height: 200%;
+    }
+
+}
