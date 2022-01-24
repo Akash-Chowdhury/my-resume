@@ -282,5 +282,22 @@
         margin-left: 25px;
         line-height: 200%;
     }
+    #skills p b a{
+    text-decoration: none;
+    color: black;
+}
+#skills p b a:hover{
+    
+    color: blueviolet;
+}
+   .c a{
+    font-size: 1.2rem;
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+.c a:hover
+{
+    color: blueviolet;
+} 
 
 }
