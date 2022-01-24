@@ -114,6 +114,14 @@
     cursor: pointer;
     
 }
+#skills p b a{
+    text-decoration: none;
+    color: black;
+}
+#skills p b a:hover{
+    
+    color: blueviolet;
+}
 #skills:hover{
     box-shadow: 1px 1px 8px 4px gray;
     border: 2px solid black;
@@ -126,9 +134,14 @@
     font-size: 1.4rem;
     color: blueviolet;
 }
-.c{
+.c a{
     font-size: 1.2rem;
     color: darkgoldenrod;
+    text-decoration: none;
+}
+.c a:hover
+{
+    color: blueviolet;
 }
 .d{
     font-size: 1.2rem;
